@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>History buff</title>
+  </head>
+  <body>
+    <div class="container text-center position-absolute top-50 start-50 translate-middle">
+        <div class="col">
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <input type="text" class="form-control" placeholder="Description" aria-label="Description" id="description">
+            <input type="text" class="form-control" placeholder="Start date" aria-label="Start date" id="start-date">
+            <input type="text" class="form-control" placeholder="End date" aria-label="End date" id="end-date">
+            
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button class="btn btn-primary" type="button" id="save">Save</button>
+              <button class="btn btn-light" type="button" disabled></button>
+              <button class="btn btn-primary" type="button" id="reset">Reset</button>
+            </div>            
+            <div class="alert alert-primary" role="alert" id="info-box">Info box</div>
+            
+          </div>          
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <table class="table table-hover">
+              <tr>
+                <th></th>
+                <th>Description</th>
+                <th>Start date</th>
+                <th>End date</th>
+              </tr>
+              <tbody id="event-table-body">
+
+              </tbody>
+            </table>            
+          </div>          
+        </div>
+      </div>
+  </body>
+</html>

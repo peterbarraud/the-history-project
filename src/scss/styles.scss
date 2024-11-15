@@ -1,0 +1,9 @@
+// Import all of Bootstrap's CSS
+@use "bootstrap/scss/bootstrap";
+
+
+#balance-list-group{
+    height: 200px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
